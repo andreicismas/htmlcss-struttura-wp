@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: violet;
+
+    padding: 20px;
+
+    width: 80%;
+    height: 60px;
+
+    display: table;
+
+    float: right;
+
+    margin-right: 10%;
+
+}
+
+.yallow{
+    background-color: yellow ;
+    
+    width: 80%;
+    height: 350px;
+    margin: 10px;
+    float: right;
+    margin-right: 10%;
+ 
+}
+
+.blue{
+    background-color: blue ;
+    
+    width: 80%;
+    height: 350px;
+
+    float: right;
+    margin-right: 10%;
+}  
+
+.violet{
+    background-color: blueviolet;
+     
+    width: 80%;
+    height: 50px;
+
+    float: right;
+    margin-right: 10%; 
+} 
+
+.blue1{
+    background-color: lightskyblue;
+    
+    width: 100%;
+    height: 100px;
+    
+    float: right;
+}
+
+
