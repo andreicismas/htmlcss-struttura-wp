@@ -30,6 +30,11 @@
     margin-right: 10%;
  
 }
+.clearfix::after{
+    contain: "";
+    display: table;
+    clear: both;
+}
 
 .blue{
     background-color: blue ;
@@ -49,15 +54,41 @@
 
     float: right;
     margin-right: 10%; 
+    margin-top: 15px;
 } 
 
 .blue1{
     background-color: lightskyblue;
     
-    width: 100%;
+    width: 80%;
     height: 100px;
     
     float: right;
+    margin-right: 10%;
 }
 
-
+.aside-right{
+    display: inline;
+   margin-top: 15px;
+    float: right;
+    width: 25%;
+    height: 90%;
+    background-color:lightskyblue;
+}
+.aside-left{
+    display: inline;
+    margin-top: 15px;
+    float: left;
+    width: 25%;
+    height: 90%;
+    background-color:lightskyblue;
+}
+.center{
+    float: left;
+    display: inline;
+    margin: 15px;
+    width: 47%;
+    height: 90%;
+    border: 1px solid black;
+    background-color:lightskyblue;
+}
