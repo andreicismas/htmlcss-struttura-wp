@@ -1,94 +1,77 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container{
-    background-color: violet;
-
-    padding: 20px;
-
+.contain{
+    margin: auto;
+    height:1000px;
     width: 80%;
-    height: 60px;
+    border-radius: 10px;
 
-    display: table;
-
-    float: right;
-
-    margin-right: 10%;
-
+   
 }
-
-.yallow{
-    background-color: yellow ;
-    
-    width: 80%;
-    height: 350px;
-    margin: 10px;
-    float: right;
-    margin-right: 10%;
  
-}
+ .top-head{
+     margin: auto;
+      margin-top: 10px;
+      background-color: chocolate;
+      height: 100px;
+      width: 98%;
+      border-radius: 10px;
+      
+
+ }
+
+
 .clearfix::after{
-    contain: "";
+    content: "";
     display: table;
     clear: both;
 }
 
-.blue{
-    background-color: blue ;
+.box1{
+  
+    background-color:rgb(139, 0, 30);
+    height: 25%;
+    width: 100%;
+    border-radius: 10px;
+   
+}
+
+.main-float {
+    margin: auto;
+    margin-top: 10px;
+    width: 98%;
+    height: 400px;
+    border-radius: 10px;
+  
+    background-color:lawngreen
+}
+.top-main{
+    margin: auto;
+    margin-top: 10px;
+    background-color:darkcyan;
+    height: 400px;
+    width: 98%;
+    border-radius: 10px;
+}
+.box{
+    margin-top: 9px ;
+    float: left;
+    background-color:rgb(139, 0, 30);
+    height: 70%;
+    width: 32%;
+    border-radius: 10px;
     
-    width: 80%;
-    height: 350px;
+}
 
-    float: right;
-    margin-right: 10%;
-}  
+.pad{
+    margin-left: 18px;
+    margin-right: 19px;
+}
 
-.violet{
-    background-color: blueviolet;
-     
-    width: 80%;
+.bottom-foot{
+    margin: auto;
+    margin-top: 5px;
+    width: 98%;
     height: 50px;
-
-    float: right;
-    margin-right: 10%; 
-    margin-top: 15px;
-} 
-
-.blue1{
-    background-color: lightskyblue;
-    
-    width: 80%;
-    height: 100px;
-    
-    float: right;
-    margin-right: 10%;
-}
-
-.aside-right{
-    display: inline;
-   margin-top: 15px;
-    float: right;
-    width: 25%;
-    height: 90%;
-    background-color:lightskyblue;
-}
-.aside-left{
-    display: inline;
-    margin-top: 15px;
-    float: left;
-    width: 25%;
-    height: 90%;
-    background-color:lightskyblue;
-}
-.center{
-    float: left;
-    display: inline;
-    margin: 15px;
-    width: 47%;
-    height: 90%;
-    border: 1px solid black;
-    background-color:lightskyblue;
+    border-radius: 10px;
+    border: 2px solid red;
+    background-color:rgb(212, 157, 17)
 }
